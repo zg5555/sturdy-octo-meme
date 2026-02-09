@@ -1,7 +1,6 @@
 #pragma once
 template <typename T>
 class limitvalue{
-    private:
     T c_value;
     T min_value;
     T max_value;
@@ -21,3 +20,4 @@ public:
     return *this; }
     T val() { return c_value; }
 };
+
